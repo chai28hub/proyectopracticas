@@ -131,7 +131,6 @@ body {
     margin-left: auto; /* Alineado a la derecha */
 }
 
-/* Bento Grid Categories (con Tecnología & IA en grande) */
 .bg-light-bento {
     background-color: var(--bg-light-bento);
 }
@@ -175,7 +174,7 @@ body {
 /* Tarjetas de Curso (Editorial Shadow) */
 .card-course { 
     border-radius: 22px !important;
-    box-shadow: 0 12px 32px rgba(25, 28, 35, 0.06) !important; /* Editorial Shadow de Tailwind */
+    box-shadow: 0 12px 32px rgba(25, 28, 35, 0.06) !important; 
     transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
 
@@ -230,14 +229,12 @@ body {
     border-radius: 22px !important;
 }
 
-/* Sección Newsletter de la Captura (bg-gradient-blue) */
 .cta-banner {
     background: linear-gradient(135deg, #1a73e8 0%, #004493 100%);
     position: relative;
     overflow: hidden;
 }
 
-/* Abstract circles - adornos de la captura */
 .cta-banner::before {
     content: '';
     position: absolute;
@@ -282,7 +279,7 @@ body {
     border-radius: 100px !important;
 }
 
-/* Footer de la Captura con Todas las Columnas */
+/* Footer todas las columnas */
 .footer-custom { 
     border-top: 1px solid var(--border-subtle) !important;
 }
@@ -331,7 +328,7 @@ body {
 .max-w-lg { max-width: 600px; }
 .max-w-2xl { max-width: 720px; }
 
-/* Ajustes Responsivos Especiales */
+/* Ajustes responsivos especiales */
 @media (max-width: 991.98px) {
     .bento-card {
         height: 100%;
